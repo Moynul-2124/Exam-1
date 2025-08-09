@@ -28,18 +28,55 @@
 
     <header>
 
-        <div class="flex container mx-auto justify-between py-8 items-center">
-            <div>
+        <div class="flex flex-col lg:flex-row container mx-auto justify-between py-8 items-center">
+            <div class="flex gap-4">
 
                 <img src="Image/logo_1.png" alt="">
 
 
+                <div class="flex gap-4 items-center lg:hidden">
 
+                    <div class=" w-[60px]  pl-4 flex justify-center relative">
+                        <div>
+                            <i class="fa-solid fa-cart-shopping text-gray-600"></i>
+                        </div>
+
+                        <p
+                            class="bg-red-600 w-[16px] -translate-y-3 absolute top-0 -right-1 h-[20px] flex items-center justify-center rounded-full">
+                            3</p>
+
+
+                    </div>
+
+                    <div>
+
+                        <i
+                            class="fa-solid fa-person-dress border w-[40px] h-[40px] rounded-md flex items-center justify-center"></i>
+
+
+                    </div>
+
+                    <div>
+
+                        <p
+                            class="bg-[#5F2DED] rounded-md  flex items-center justify-center text-white w-[90px] px-2 py-2">
+                            Get Start</p>
+
+
+                    </div>
+
+
+                </div>
 
 
             </div>
 
-            <div class="flex gap-10">
+
+
+
+
+
+            <div class="grid lg:flex lg:gap-10 grid-cols-3 gap-12 mt-6 md:grid-cols-2 xl:grid-cols-3">
                 <div class="flex gap-1 items-center">
 
                     <p class="font-sans font-semibold">Demos</p>
@@ -92,7 +129,7 @@
                 </div>
             </div>
 
-            <div class="flex gap-4 items-center">
+            <div class="lg:flex gap-4 items-center hidden">
 
                 <div class=" w-[60px]  pl-4 flex justify-center relative">
                     <div>
@@ -139,8 +176,8 @@
 
         <section>
             <div class="bg-[#170F2F]">
-                <div class="flex items-center gap-5 py-28 justify-center container mx-auto">
-                    <div class="flex flex-col w-[520px] gap-8">
+                <div class="flex flex-col lg:flex-row items-center gap-5 py-28 justify-center container mx-auto">
+                    <div class="flex flex-col w-[520px] p-12 gap-8">
 
                         <p class="text-[16px] text-[#F2277E] font-semibold">E D U C A T I O N <span class="pl-3">S O L U
                                 T I
@@ -172,7 +209,7 @@
 
                     </div>
 
-                    <div class="relative">
+                    <div class="relative px-4 py-5">
 
                         <img src="Image/about_8.png" alt="">
 
@@ -213,7 +250,7 @@
         <section>
 
             <div
-                class="flex -translate-y-16 rounded-md items-center py-10 bg-[#FFFFFF] px-10 justify-between container mx-auto">
+                class="lg:flex -translate-y-16 grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-12 rounded-md items-center py-10 bg-[#FFFFFF] px-10 justify-between container mx-auto">
 
                 <img src="Image/brand_1.png" alt="">
                 <img src="Image/brand_2.png" alt="">
@@ -243,17 +280,18 @@
 
 
             <div class="bg-[#FBFBFB]">
-                <div class="container mx-auto pl-[300px] py-12">
+                <div class="container p-3  mx-auto lg:pl-[300px] lg:py-12">
                     <div class="relative">
 
                         <img class="translate-y-36" src="Image/about_11.png" alt="">
                         <img class="absolute top-0 left-20" src="Image/about_2.png" alt="">
                         <img class="absolute -top-6 left-3" src="Image/about_4.png" alt="">
-                        <img class="absolute left-[320px] -bottom-[249px]" src="Image/about_3.png" alt="">
+                        <img class="absolute lg:left-[320px] lg:-bottom-[249px] -bottom-60" src="Image/about_3.png"
+                            alt="">
 
 
                         <div
-                            class="flex gap-2 translate-x-[420px] translate-y-[139px] bg-[#FFFFFF] items-center border-t border-r border-b -ml-[450px] border-l-[#5F2DED] h-[110px] border-l-4 pl-6 w-[320px]">
+                            class="flex gap-2 lg:translate-x-[420px] lg:translate-y-[139px] translate-x-4 translate-y-9 bg-[#FFFFFF] items-center border-t border-r border-b lg:-ml-[450px] border-l-[#5F2DED] h-[110px] border-l-4 pl-6 w-[320px]">
 
                             <p class="text-[45px] text-[#5F2DED] font-semibold">25+</p>
                             <p class="text-[20px] font-bold">YEARS EXPERIENCE JUST ACHIVED</p>
@@ -326,7 +364,8 @@
 
 
 
-                <div class="flex container mx-auto justify-center -translate-y-[140px]  gap-28 items-center">
+                <div
+                    class=" lg:flex grid grid-cols-2 md:grid-cols-3 xl:grid-cols-3 container p-4 mx-auto justify-center -translate-y-[140px]  lg:gap-28 gap-12 items-center">
                     <div class="flex gap-3 items-center">
 
                         <img src="Image/counter__1.png" alt="">
@@ -468,7 +507,7 @@
 
         <section>
 
-            <div class="flex container mx-auto items-center justify-between">
+            <div class="lg:flex container mx-auto items-center p-3 justify-between">
                 <div class="flex flex-col gap-4">
 
                     <p
@@ -487,7 +526,7 @@
 
 
 
-                <div class="flex gap-12">
+                <div class="lg:flex lg:gap-12 grid grid-cols-3 gap-6 mt-8 sm:grid-cols-4 xl:grid-cols-5 p-3">
 
 
                     <p class="text-[#5F2DED] font-semibold">See All</p>
@@ -536,7 +575,7 @@
         <section>
 
 
-            <div class="flex container mx-auto items-center justify-between mt-8">
+            <div class="lg:flex grid gap-8 p-3 lg:gap-0 container mx-auto items-center justify-between mt-8">
                 <div class="flex flex-col gap-4 rounded-sm w-[360px] px-4 bg-[#FFFFFF] py-4">
                     <div class="relative">
 
@@ -935,7 +974,7 @@
         <section>
 
             <div class="bg-[#edecf5] my-8">
-                <div class="flex  container mx-auto justify-center py-16 gap-8">
+                <div class="lg:flex  container mx-auto justify-center px-5 py-16 gap-8">
                     <div class="flex flex-col gap-7">
                         <div class="flex flex-col gap-4">
 
@@ -1007,7 +1046,7 @@
                     </div>
 
 
-                    <div class="flex flex-col gap-6">
+                    <div class="flex flex-col pt-5 lg:pt-0 gap-6">
                         <div class="flex gap-6">
                             <div class="flex flex-col bg-white  rounded-md w-[280px] px-4 py-4">
                                 <div>
@@ -1223,7 +1262,7 @@
 
         <section class="bg-[#330F98] my-24">
 
-            <div class="flex relative container justify-center py-6 items-start gap-32 px-12  mx-auto ">
+            <div class="lg:flex relative container justify-center py-6 items-start gap-32 px-12  mx-auto ">
                 <div class="flex w-[360px] translate-y-24  text-white flex-col gap-10">
                     <div class="flex  flex-col gap-4">
 
@@ -1276,7 +1315,7 @@
 
 
                 <div
-                    class="flex translate-y-28 flex-col gap-10 border bg-white rounded-md w-[400px] h-[px] ml-8 px-4 py-4">
+                    class="flex translate-y-28 flex-col gap-10  border bg-white rounded-md w-[400px] h-[px] lg:ml-8  px-4 py-4">
                     <div class="flex flex-col gap-6">
 
                         <p class="text-[25px] font-bold">Fill Your Registration</p>
@@ -1392,7 +1431,7 @@
 
         <section class="bg-[#FBFBFB]">
 
-            <div class="flex container mx-auto justify-between">
+            <div class="lg:flex container mx-auto p-6 lg:p-0 grid gap-8 lg:gap-0 justify-between">
                 <div class="flex flex-col gap-8 w-[340px] bg-[#FFFFFF]  rounded-xl py-10 px-6">
                     <div class="flex flex-col">
                         <div class="flex items-center justify-between">
@@ -1802,7 +1841,7 @@
         <section class="bg-[#F5F5FE] py-16">
 
 
-            <div class="flex relative container mx-auto items-baseline justify-between">
+            <div class="lg:flex relative container mx-auto items-baseline justify-between p-6 lg:p-0">
                 <div class="flex flex-col w-[400px] gap-7">
                     <div class="flex flex-col gap-4">
 
@@ -1874,7 +1913,7 @@
                 </div>
 
 
-                <div class="flex flex-col gap-8">
+                <div class="flex flex-col mt-10 lg:mt-0 p-6 lg:p-0 gap-8">
                     <div class="relative">
 
                         <p class="text-gray-700 w-[320px] h-[200px]  rounded-md tracking-tighter border px-4  py-8 ">
@@ -1916,7 +1955,7 @@
 
 
 
-                <div class="flex flex-col gap-8">
+                <div class="flex flex-col mt-10 lg:mt-0 p-6 lg:p-0 gap-8">
                     <div class="relative">
 
                         <p class="text-gray-700 w-[320px] h-[200px]  rounded-md tracking-tighter border px-4  py-8 ">
@@ -2015,7 +2054,7 @@
 
         <section class="bg-[#FBFBFB] mt-10">
 
-            <div class="flex container mx-auto justify-center gap-10">
+            <div class="lg:flex container p-6 lg:p-0 mx-auto justify-center gap-10">
                 <div>
                     <div class="relative">
 
@@ -2029,10 +2068,10 @@
                     </div>
 
                     <div class="flex flex-col gap-6 border w-[757px] py-10 px-4 rounded-sm text-justify">
-                        <p class="text-4xl font-bold">It is a long established fact that a reader will be Standard Part
+                        <p class="text-4xl font-bold w-[400px] lg:w-[723px]">It is a long established fact that a reader will be Standard Part
                         </p>
 
-                        <p class="text-[16px] text-[#5F6C76] contrast-200">A wonderful serenity has taken possssion of
+                        <p class="text-[16px] text-[#5F6C76] w-[400px] lg:w-[723px] contrast-200">A wonderful serenity has taken possssion of
                             my
                             entire
                             souing like these sweet morning spring whchenjoy with my whole heart I am alone, and feel
@@ -2104,7 +2143,7 @@
 
 
 
-                <div class="flex flex-col gap-6">
+                <div class="flex flex-col gap-6 mt-6 lg:mt-0">
                     <div>
 
 
@@ -2177,7 +2216,7 @@
 
 
             <section>
-                <div class="flex justify-between items-center container mx-auto border-b h-[220px]">
+                <div class=" lg:flex px-4 lg:px-0  justify-between items-center container mx-auto border-b h-[260px] lg:h-[220px]">
                     <div class="flex flex-col gap-3">
 
                         <p class="text-[40px] font-semibold">Still You Need Our <span
@@ -2196,7 +2235,7 @@
                     </div>
 
 
-                    <div class="flex">
+                    <div class="flex pt-3 lg:pt-0">
 
 
                         <input class="border w-[420px] h-[65px] pl-3" type="text" placeholder="Enter Your email here">
@@ -2218,7 +2257,7 @@
             </section>
 
 
-            <div class="flex container pt-12 justify-between mx-auto">
+            <div class="lg:flex container pt-12 justify-between mx-auto px-4 lg:px-0">
                 <section>
 
 
@@ -2265,7 +2304,7 @@
 
                 <section>
 
-                    <div class="flex flex-col gap-5">
+                    <div class="flex flex-col gap-5 pt-8 lg:pt-5">
 
                         <p class="text-[18px] font-bold">Usefull Links</p>
 
@@ -2305,7 +2344,7 @@
                 <section>
 
 
-                    <div class="flex flex-col  gap-5">
+                    <div class="flex flex-col  gap-5 pt-8 lg:pt-0">
 
                         <p class="text-[18px] font-bold">Course</p>
 
@@ -2345,7 +2384,7 @@
 
 
 
-                <section class="flex flex-col gap-5">
+                <section class="flex flex-col gap-5 pt-5 lg:pt-0">
 
                     <p class="text-[18px] font-bold">Recent Post</p>
 
@@ -2425,13 +2464,13 @@
             <section>
 
 
-                <div class="flex pb-10 pt-32 container mx-auto justify-between">
+                <div class="lg:flex px-4 lg:px-0 pb-20 lg:pb-10 pt-32 container mx-auto justify-between">
                     <div class="flex items-center gap-32">
 
                         <img src="Image/logo_2.png" alt="">
 
 
-                        <p class="font-semibold">Copyright <span class="text-[#522DED]">2024</span> by edurock. All
+                        <p class="font-semibold translate-y-6 lg:translate-y-0">Copyright <span class="text-[#522DED]">2024</span> by edurock. All
                             Rights Reserved.</p>
 
 
